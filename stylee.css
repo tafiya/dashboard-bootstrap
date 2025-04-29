@@ -1,0 +1,96 @@
+body {
+    background: linear-gradient(to bottom right, #000814, #001d3d);
+    color: #fff;
+    font-family: "Segoe UI", sans-serif;
+  }
+
+  .navbar {
+    background-color: #0d1b2a;
+    padding: 1rem 2rem;
+  }
+
+  .navbar-brand {
+    width: 184px;
+    height: 50px;
+  }
+
+  .navbar-brand span {
+    color: #00b4d8;
+  }
+
+  .live-badge {
+    font-size: 0.75rem;
+    background-color: red;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 6px;
+    margin-left: 4px;
+  }
+
+  .subscription-btn {
+    border: 2px solid red;
+    color: red;
+    background: transparent;
+    border-radius: 25px;
+    padding: 0.4rem 1.5rem;
+    margin-left: 1rem;
+  }
+
+  .social-card {
+    background-color: #1e2a3a;
+    border: none;
+    padding: 1.2rem 0.8rem;
+    border-radius: 10px;
+    text-align: center;
+    color: #a7b6ff;
+    transition: 0.3s ease;
+  }
+
+  .social-card:hover,
+  .social-card.active {
+    box-shadow: 0 0 10px 2px red;
+    cursor: pointer;
+  }
+
+  .social-card img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 8px;
+  }
+
+  .platform-container {
+    background-color: #030929;
+    border-radius: 15px;
+    border: 2px solid #030929;
+    background-color: #0c0f2c; /* Optional: to match your dark theme */
+    box-shadow: inset 0 2px 4px #4a5568,
+      /* Inner shadow */ 0 4px 10px #4a5568;
+    border-width: 2px;
+    box-shadow: #fff;
+    padding: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    max-width: 600px;
+  }
+
+  .divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 1.5rem 0;
+  }
+
+  .divider::before,
+  .divider::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #4a5568;
+  }
+
+  .divider:not(:empty)::before {
+    margin-right: 0.75em;
+  }
+
+  .divider:not(:empty)::after {
+    margin-left: 0.75em;
+  }
